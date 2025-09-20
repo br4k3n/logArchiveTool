@@ -9,6 +9,7 @@ A simple Bash CLI tool to archive logs by compressing them into a `.tar.gz` file
 - **Stores archives in a separate folder** (`./archived_logs`)
 - **Appends log entries to `archive.log`** for history tracking
 - **Optional automation** – schedule to run daily, weekly, or monthly at 00:00 using cron
+- **Check logs older than a year, and optionally deletes them** - it also creates an audit file
 
 ## Usage
 
